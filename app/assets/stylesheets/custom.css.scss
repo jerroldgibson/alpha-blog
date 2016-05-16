@@ -1,2 +1,73 @@
+$navbar-default-bg: #232323;
+
+.navbar-default{
+  margin-bottom: 0px !important ;
+  border-radius: 0px !important;
+}
+
+#logo{
+  float: left;
+  font-size: 1.7em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+
+}
+
+#logo:hover{
+  color: #ff0;
+  text-decoration: none;
+}
+
+.center{
+  text-align: center;
+}
+
+.jumbotron{
+  background: asset-url('alphadog.jpg') ;
+  background-size: cover;
+  height: 478px;
+  margin-bottom: 0px !important;
+
+}
+
+.jumbotron h1{
+  text-transform: uppercase;
+
+}
+
+footer{
+  margin-top: 0px;
+  padding: 10px;
+  background-color: #232323;
+  color:#fff;
+  font-size: .7em !important;
+
+
+}
+footer a {
+  color: #494949;
+}
+
+footer a:hover{
+  color: #fff;
+}
+
+footer small{
+  float: left;
+}
+
+footer ul{
+  float: right;
+  list-style: none;
+  margin: 0px !important;
+}
+
+footer ul li{
+  float: left;
+  margin-left: 15px;
+}
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
