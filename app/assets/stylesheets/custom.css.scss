@@ -46,7 +46,7 @@ footer{
   background-color: #232323;
   color:#fff;
   font-size: .7em !important;
-
+  clear: both;
 
 }
 footer a {
@@ -78,4 +78,9 @@ footer ul li{
 
 .pageAlerts{
   margin-top: 20px;
+}
+
+.article-actions{
+  border-top: 1px solid #232323;
+  padding-top: 10px;
 }
