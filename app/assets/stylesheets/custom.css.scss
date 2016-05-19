@@ -1,5 +1,8 @@
 $navbar-default-bg: #232323;
 
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
 .navbar-default{
   margin-bottom: 0px !important ;
   border-radius: 0px !important;
@@ -69,5 +72,10 @@ footer ul li{
   margin-left: 15px;
 }
 
-@import "bootstrap-sprockets";
-@import "bootstrap";
+.content{
+  margin:20px;
+}
+
+.pageAlerts{
+  margin-top: 20px;
+}
