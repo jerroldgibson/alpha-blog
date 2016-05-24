@@ -80,6 +80,24 @@ footer ul li{
   margin-top: 20px;
 }
 
+.article-title{
+  font-weight: bold;
+  font-size: 1.5em;
+  border-bottom: 1px solid #232323;
+}
+
+.article-body{
+  padding: 10px 0px;
+}
+
+.article-title a {
+  text-decoration: none;
+}
+
+.article-meta-details{
+  border-top: 1px dotted #6B6B6B;
+  padding: 5px 0px 10px 0px;
+}
 .article-actions{
   border-top: 1px solid #232323;
   padding-top: 10px;
