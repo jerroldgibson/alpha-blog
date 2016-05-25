@@ -1,7 +1,7 @@
 class ArticlesController < ApplicationController
 
   def index
-    @articles = Article.all
+    @articles = Article.paginate(page: params[:page], per_page: 5)
   end
 
   def new
@@ -17,7 +17,7 @@ class ArticlesController < ApplicationController
   def create
     #render plain: params[:article].inspect --- To see whats being posted
     @article = Article.new(article_params)
-    @article.user = User.first
+    @article.user = User.last
 
     if @article.save
       flash[:success] = "Article was saved successfully!"
